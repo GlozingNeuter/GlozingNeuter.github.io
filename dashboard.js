@@ -241,7 +241,7 @@ def complexgraph(df) :
 
 def indicateursgraph(df) :
 
-    fig = Figure(figsize= (10,7), tight=True)
+    fig = Figure(figsize= (10,7))
     ax = fig.subplots(3,2)
 
     fig.suptitle('Indicateurs sociotechniques')
